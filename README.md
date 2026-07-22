@@ -44,7 +44,7 @@ This project was built to explore practical JavaScript concepts, browser APIs, a
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Usage |
 |------------|-------|
