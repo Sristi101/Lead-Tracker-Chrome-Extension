@@ -15,23 +15,20 @@ if (leadsFromLocalStorage) {
 
 function render(leads) {
     let listItem = ""
-    size = leads.length
+    let size = leads.length
     for (let i = 0; i < size; i++) {
-        
-        // to access html creating list directly from the js, call innerHTML
-        //listItem +=  "<li><a target = '_black' href='" + myLeads[i] + "'>" + myLeads[i].slice(4, -4).toUpperCase() + "</a>" + "</li>"
-        
         // using template string
         listItem +=  
             `
             <li>
-                <a target = '_black' href='${leads[i]}'> 
+                <a target='_blank' href='${leads[i]}'> 
                     ${leads[i]} 
                 </a> 
             </li>
             `
     }
-    
+
+    // to access html creating list directly from the js, call innerHTML
     ulEl.innerHTML = listItem
 }
 
@@ -53,17 +50,11 @@ deleteBtn.addEventListener("dblclick", function () {
     render(myLeads)
 })
 
-
-
 tabBtn.addEventListener("click", function () {
     // to grab url of the current tab directly from chrome
-
     chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
-    
-    myLeads.push(tabs[0].url)
-    localStorage.setItem("myLeads", JSON.stringify("myLeads"))
-    render(myLeads)
-
+        myLeads.push(tabs[0].url)
+        localStorage.setItem("myLeads", JSON.stringify(myLeads))
+        render(myLeads)
     })
-
 })

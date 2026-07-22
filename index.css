@@ -49,15 +49,15 @@ button {
 ul {
     margin-top: 20px;
     list-style: none;
-    padding-left: 0;
+    padding-left: 0px;
+    line-height: 20px;
+
 }
 
 li a {
     margin-top: 5px;
-}
-
-a {
     text-decoration: none;
     color: #5f9341;
 }
+
 
