@@ -12,7 +12,6 @@ A simple and efficient Chrome Extension to save, manage, and revisit important U
 Built with JavaScript, Chrome Extension APIs, and Local Storage.
 </p>
 
----
 
 ## Overview
 
@@ -22,7 +21,6 @@ Users can manually add URLs or instantly save the currently active browser tab. 
 
 This project was built to explore practical JavaScript concepts, browser APIs, and Chrome Extension development.
 
----
 
 ## Features
 
@@ -34,7 +32,7 @@ This project was built to explore practical JavaScript concepts, browser APIs, a
 - ✅ Delete all saved leads
 - ✅ Simple and user-friendly interface
 
----
+
 
 ## Extension Preview
 
@@ -42,7 +40,6 @@ This project was built to explore practical JavaScript concepts, browser APIs, a
   <img src="./images/extension-preview.png" width="500" alt="Lead Tracker Extension Preview">
 </p>
 
----
 
 ## Tech Stack
 
@@ -54,7 +51,6 @@ This project was built to explore practical JavaScript concepts, browser APIs, a
 | Chrome Extension API | Browser interaction |
 | Local Storage API | Data persistence |
 
----
 
 ## Project Structure
 
@@ -73,7 +69,7 @@ lead-tracker-chrome-extension/
 └── README.md
 ```
 
----
+
 
 ## Installation & Setup
 
@@ -111,7 +107,7 @@ Select the project folder.
 
 The extension will now be installed locally in your Chrome browser.
 
----
+
 
 ## How It Works
 
@@ -137,7 +133,7 @@ chrome.tabs.query()
 
 to retrieve the active browser tab URL and store it automatically.
 
----
+
 
 ## Data Persistence
 
@@ -157,7 +153,6 @@ localStorage.getItem()
 
 This allows users to keep their saved leads even after restarting the browser.
 
----
 
 ## Learning Outcomes
 
@@ -171,7 +166,6 @@ Through this project, I gained experience with:
 - Local Storage management
 - Building interactive browser applications
 
----
 
 ## Future Improvements
 
@@ -183,7 +177,7 @@ Through this project, I gained experience with:
 - [ ] Improve UI/UX design
 - [ ] Add dark mode support
 
----
+
 
 ## Author
 
@@ -197,7 +191,7 @@ https://github.com/Sristi101
 LinkedIn:  
 https://linkedin.com/in/saidur-ahrar-sristi/
 
----
+
 
 ## Acknowledgements
 
