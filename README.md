@@ -185,9 +185,6 @@ Through this project, I gained experience with:
 
 Computer Science & Engineering Student
 
-GitHub:  
-https://github.com/Sristi101
-
 LinkedIn:  
 https://linkedin.com/in/saidur-ahrar-sristi/
 
